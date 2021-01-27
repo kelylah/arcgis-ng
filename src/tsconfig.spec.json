@@ -4,10 +4,7 @@
     "outDir": "../out-tsc/spec",
     "baseUrl": "./",
     "module": "commonjs",
-    "types": [
-      "jasmine",
-      "node"
-    ]
+    "types": ["jasmine", "node", "arcgis-js-api"]
   },
   "files": [
     "test.ts"
