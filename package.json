@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Sample Angular app with ArcGIS JS API",
   "license": "MIT",
-  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kelylah/arcgis-ng.git"
