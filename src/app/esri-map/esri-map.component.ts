@@ -27,7 +27,7 @@ export class EsriMapComponent implements OnInit, OnDestroy {
   @Output() mapLoadedEvent = new EventEmitter<boolean>();
 
   // The <div> where we will place the map
-  @ViewChild('mapViewNode', { static: true }) private mapViewEl: ElementRef;
+  @ViewChild('mapViewNode', {}) private mapViewEl: ElementRef;
 
   private _zoom = 10;
   private _center: Array<number> = [0.1278, 51.5074];
