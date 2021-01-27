@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  title = 'ArcGIS&Angular';
+
+  // Set our map properties
+  mapCenter = [-105.0, 39.64];
+  basemapType = 'streets-vector';
+  mapZoomLevel = 11;
+
+  // See app.component.html
+  mapLoadedEvent(status: boolean) {
+    console.log('The map loaded: ' + status);
+  }
 }
