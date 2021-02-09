@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'ArcGIS&Angular';
+  title = 'ArcGIS&Angular_726';
 
   // Set our map properties
   mapCenter = [-105.0, 39.64];
